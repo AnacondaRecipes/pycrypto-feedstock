@@ -30,8 +30,11 @@ build:
     - python setup.py install test
 
 requirements:
-  build:
+  host:
     - python
+
+  build:
+    - {{ compiler('c') }}
 
   run:
     - python
