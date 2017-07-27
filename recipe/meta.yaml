@@ -47,10 +47,11 @@ build:
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
-    - {{ compiler('c') }}
   host:
     - python
+
+  build:
+    - {{ compiler('c') }}
     - pip
   run:
     - python
