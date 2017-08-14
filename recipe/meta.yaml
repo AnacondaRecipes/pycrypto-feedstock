@@ -65,7 +65,14 @@ test:
 about:
   home: http://www.pycrypto.org/
   license: Public Domain
+  license_file: COPYRIGHT
   summary: Cryptographic modules for Python.
+  description: |
+    pycrpto, the Python Cryptography Toolkit, is a collection of cryptographic
+    modules implementing various algorithms and protocols.
+  doc_url: https://www.dlitz.net/software/pycrypto/api/current/
+  doc_source_url: https://github.com/dlitz/pycrypto/tree/master/Doc
+  dev_url: https://github.com/dlitz/pycrypto
 
 extra:
   recipe-maintainers:
