@@ -39,7 +39,7 @@ source:
     - pycrypto_PR_200.diff
 
 build:
-  number: 1003
+  number: 7
   noarch: python
   script:
     - set CL=/FI"%VCINSTALLDIR%\\INCLUDE\\stdint.h" %CL%  # [win and py>=35]
